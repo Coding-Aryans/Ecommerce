@@ -14,10 +14,19 @@ public class ParticlarFilters extends BasePage {
 		PageFactory.initElements(factory, this.FMenLoc);
 	}
 	
-	public void dropDownPrice() {
+	public ParticlarFilters dropDownPrice() {
 		//click(MenLoc.MinDrop);
 		dropDown(FMenLoc.MinDrop);
+		return this;
 		
+	}
+	
+	
+	public ParticlarFilters checkOnBrands() {
+		System.out.println(FMenLoc.Brands.getText());
+		type(FMenLoc.BrandSearch);
+		check(FMenLoc.BrandsCheck);
+		return this;
 	}
 
 }

@@ -72,7 +72,9 @@ public class BasePage {
 		element.click();
 		
 	}
-	
+	public static void type(WebElement element) {
+		element.sendKeys("fastrack");
+	}
 	public static void scroll(WebElement element) {
  	
 // 	 JavascriptExecutor js=(JavascriptExecutor) driver;
@@ -129,6 +131,10 @@ public class BasePage {
 		drop.selectByValue("500");
 	}
 	
+	public void check(WebElement element) {
+		element.click();
+		
+	}
 	public static void tearDown() {
 		try {
 			Thread.sleep(3000);

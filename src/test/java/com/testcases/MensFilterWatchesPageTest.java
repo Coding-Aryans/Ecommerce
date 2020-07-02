@@ -20,5 +20,12 @@ public class MensFilterWatchesPageTest extends BaseTest {
 		MensFilterWatchesPage men=new MensFilterWatchesPage();
 		men.filterBydropDown();
 	}
-
+	
+	@Test(priority = 2)
+	public void filterByBrands() {
+		
+		MensFilterWatchesPage men=new MensFilterWatchesPage();
+		men.FilterByBrands();
+	
+	}
 }

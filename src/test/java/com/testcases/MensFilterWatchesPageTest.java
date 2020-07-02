@@ -25,7 +25,8 @@ public class MensFilterWatchesPageTest extends BaseTest {
 	public void filterByBrands() {
 		
 		MensFilterWatchesPage men=new MensFilterWatchesPage();
-		men.FilterByBrands();
+		men.filterByBrands();
+		men.sortBy();
 	
 	}
 }

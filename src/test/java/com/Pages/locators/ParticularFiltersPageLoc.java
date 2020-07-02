@@ -18,4 +18,8 @@ public class ParticularFiltersPageLoc {
 	
 	@FindBy(xpath="//*[@id=\"container\"]/div/div[3]/div[2]/div/div[1]/div/div/div/section[4]/div[2]/div[1]/div[1]/input")
 	public WebElement BrandSearch;
+	
+	@FindBy(xpath="//*[@id=\"container\"]/div/div[3]/div[2]/div/div[2]/div[1]/div/div/div[3]/div[2]")
+	public WebElement SortBy;
 }
+//*[@id="container"]/div/div[3]/div[2]/div/div[2]/div[1]/div/div/div[3]/div[2]

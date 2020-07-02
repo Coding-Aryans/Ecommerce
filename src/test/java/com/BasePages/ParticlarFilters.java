@@ -28,5 +28,10 @@ public class ParticlarFilters extends BasePage {
 		check(FMenLoc.BrandsCheck);
 		return this;
 	}
-
+	
+	public ParticlarFilters sortByPrice() {
+		System.out.println(FMenLoc.SortBy.getText());
+		FMenLoc.SortBy.click();
+		return this;
+	}
 }

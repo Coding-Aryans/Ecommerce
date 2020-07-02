@@ -48,4 +48,9 @@ public class MensMainWatchPage extends BasePage {
 		return new MensFilterWatchesPage();
 		
 	}
+	
+	public void selectByimage() {
+		scroll(MenLoc.ImageSection);
+		MenLoc.ImageSection.click();
+	}
 }

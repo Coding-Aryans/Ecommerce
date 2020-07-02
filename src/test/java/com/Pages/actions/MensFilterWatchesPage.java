@@ -12,9 +12,12 @@ public class MensFilterWatchesPage extends BasePage {
 		return new MensFilterWatchesPage();
 	}
 	
-    public void FilterByBrands() {
+    public void filterByBrands() {
     	pf.checkOnBrands();
     	
     }
-
+    public void sortBy() {
+    	pf.sortByPrice();
+    	
+    }
 }

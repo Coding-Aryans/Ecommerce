@@ -17,7 +17,8 @@ public class MensWatchePageTest extends BaseTest {
 	@Test(priority = 2)
 	public void FilterPriceRangeTest() {
 		MensMainWatchPage men=new MensMainWatchPage();
-		men.FilterScrollPrice();
+		//men.FilterScrollPrice();
+		men.selectByimage();
 	}
 	
 	

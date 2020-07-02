@@ -38,7 +38,7 @@ public class HomePage extends BasePage {
 	}
 	
  
-	 public HomePage Section() {
+	/* public HomePage Section() {
 			scroll(home.Section_Header_One);
 		 System.out.println(home.Section_Header_One.getText());		
 		 scroll(home.Section_Header_Two);
@@ -65,7 +65,7 @@ public class HomePage extends BasePage {
 		 return this;
 		 
 	 }
-	 
+	 */
 	 public MensPage MensSection() {
 	//	scrollup();
 		 top.MensMenu();
